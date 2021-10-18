@@ -41,4 +41,4 @@ module.exports.validateLoginInput = (username, password) => {
         errors,
         valid: Object.keys(errors).length < 1
     };
-}
+};
